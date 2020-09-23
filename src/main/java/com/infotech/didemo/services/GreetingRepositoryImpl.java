@@ -1,19 +1,22 @@
-package com.infotech.didemo.repos;
+package com.infotech.didemo.services;
 
-public class GreetingRepositoryImpl implements GreetingRepository{
+import org.springframework.stereotype.Component;
+
+@Component
+public class GreetingRepositoryImpl implements GreetingRepository {
 
     @Override
     public String getEnglishGreeting() {
-        return "Hello- Primary Greeting Service!!!";
+        return "Hello - Primary Greeting Service!!!";
     }
 
     @Override
     public String getSpanishGreeting() {
-        return "Hola- Servicio de saludo primario!!!";
+        return "Hola - Servicio de saludo primario!!!";
     }
 
     @Override
     public String getGermanGreeting() {
-        return "Hallo- Primärer Begrüßungsservice!!!";
+        return "Hallo - Primärer Begrüßungsservice!!!";
     }
 }

@@ -1,4 +1,4 @@
-package com.infotech.didemo.repos;
+package com.infotech.didemo.services;
 
 import org.springframework.stereotype.Repository;
 
